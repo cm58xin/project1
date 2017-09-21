@@ -1,0 +1,63 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 15:12:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-27 16:20:04
+*/
+
+.HOT_items{
+    width:100%;
+}
+
+.HOT_items .container{
+    width:980px;
+    padding-bottom:30px;
+    border-bottom:2px solid #5A5A5A;
+    position:relative;
+    overflow:hidden;
+}
+
+h4{height:50px;line-height:50px;}
+
+.HOT_items  ul li{float:left;padding:0 21px;
+      animation:dong 8s linear 0.5s infinite;
+}
+
+
+
+.HOT_items  ul li p { font-size:10px;}
+
+
+.HOT_items  ul li img{margin:0 auto;}
+
+.HOT_items  ul li span{padding-left: 15px;color:red;}
+
+
+.HOT_items  .h-u2{position:absolute;transform:translateX(-980px);}
+
+
+.HOT_items  .right {
+    display:block;width:30px;height:100px;
+    line-height:100px;position:absolute;
+    right:0;top:30px;transform:translateY(50%);
+      font-size:40px; z-index: 99;     
+}
+
+.HOT_items  .left {
+    display:block;width:30px;height:100px;
+     line-height:100px;position:absolute;
+    left:0;top:50%;transform: rotate(180deg) translateY(50%);
+    font-size:40px;z-index: 99;  
+}
+
+.HOT_items  ul h3:hover{
+   color:orange;
+}
+
+
+@keyframes dong{
+    0%{}
+    50%{transform:translateX(980px);}
+    100%{transform:translateX(980px);}
+}
+

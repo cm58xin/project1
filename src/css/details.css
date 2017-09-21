@@ -1,0 +1,215 @@
+@font-face {font-family: "iconfont";
+  src: url('myfont/iconfont.eot?t=1503064413397'); /* IE9*/
+  src: url('myfont/iconfont.eot?t=1503064413397#iefix') format('font/embedded-opentype'), /* IE6-IE8 */
+  url('myfont/iconfont.woff?t=1503064413397') format('woff'), /* chrome, firefox */
+  url('myfont/iconfont.ttf?t=1503064413397') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('myfont/iconfont.svg?t=1503064413397#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:13px;
+  font-style:normal;
+}
+.yellow{
+    color:#FF9D03;
+}
+.grey{
+    color:#A5A5A5;
+}
+
+
+
+.comment{
+	width: 740px;
+	float:left;
+}
+.comment>p{
+	font-weight: bold;
+	padding:16px 0 5px 0;
+	border-bottom:3px solid #000;
+}
+.comment .head{
+	padding-left:10px;
+	background: #EFEFEF;
+}
+.comment .head_l{
+	float:left;
+	width: 200px;
+	height: 110px;
+}
+.comment .head_l p{
+	font-size:12px;
+	padding:8px 0 0 0px;
+}
+
+.comment .head_l ul li{
+	float:left;
+	width: 23px; 
+  	height: 23px;
+	background: url(../img/xingxing.gif) 0 25px;
+	background-size:cover;
+}
+.comment .head_l ul li:last-child{
+	
+	background: url(../img/xingxing.gif);
+	background-size:cover;
+}
+.comment .head_l span{
+	font-size:12px;
+}
+.comment .head_l a{
+	color:#FF4500;
+}
+
+
+.comment .head_r{
+	float:right;
+	width: 270px;
+}
+.comment .head_r ul span{
+	display:inline-block;
+	float:left;
+	font-size:14px;
+}
+.comment .head_r ul{
+	padding-bottom:2px;
+}
+
+.comment .head_r ul li{
+	float:left;
+	width: 14px; 
+  	height: 14px;
+  	background: url(../img/xingxing.gif) 0 16px;
+	background-size:cover;
+}
+
+.comment .head_r .ul4 li:last-child{
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul3 li:last-child{
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul3 li:nth-last-child(2){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul2 li:last-child{
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul2 li:nth-last-child(2){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul2 li:nth-last-child(3){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul1 li:last-child{
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul1 li:nth-last-child(2){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul1 li:nth-last-child(3){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+.comment .head_r .ul1 li:nth-last-child(4){
+  	background: url(../img/xingxing.gif) 0 1px;
+	background-size:cover;
+}
+
+.comment .head_r ul meter{
+	height:14px;
+	width: 135px;
+	float:left;
+	vertical-align:top;
+}
+
+
+.comment .content{
+	padding-top:25px;
+	border-bottom:1px dotted;
+}
+.comment .content .content-l{
+	width: 140px;
+	float:left;
+}
+.comment .content .content-l ul li{
+	float:left;
+	width: 16px; 
+  	height: 16px;
+  	background: url(../img/xingxing.gif) 0 15px;
+	background-size:cover;
+}
+.comment .content .content-l p{
+	font-size:12px;
+}
+.comment .content .content-l span{
+	color:#FF4500;
+	display:inline-block;
+	padding-bottom:20px;
+}
+.comment .content .content-r{
+	overflow:hidden;
+
+}
+.comment .content .content-r span{
+	font-size:12px;
+}
+.comment .content .content-r p{
+	font-size:12px;
+	border:1px dotted;
+	background-color: #F0FBEB;
+	margin-bottom: 5px;
+	height:32px;
+	line-height: 32px;
+	color:#5E8B7D;
+}
+
+
+
+
+.comment .myReview{
+    height: 400px;
+    margin-top: 2px;
+    padding:17px 0 0 20px;
+    background-color: #fff;
+    box-shadow: 0px 24px 30px -18px #ccc inset;
+}
+
+.comment .myReview h4{
+	font-size:12px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+.comment .myReview h5{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.comment .myReview h5 input{
+    float: left;
+    width: 50px;
+}
+.comment .myReview h5  span{
+    display:inline-block;
+    float: left;
+    width: 80px;
+    height: 19px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-left: 5px;
+    background-image: url("../img/yanzheng.jpg");
+}
+.comment .myReview h5 button{
+    height: 24px;
+    padding:0 4px;
+    font-weight: bold;
+}

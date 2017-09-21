@@ -1,0 +1,101 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 19:13:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-29 09:53:46
+*/
+#Special{width:980px;height:232px;border:2px solid #ccc;padding: 5px;margin:0 auto;}
+
+#box1 h3{display: block;float:left;padding:0 20px;margin-top: 5px;}
+
+#box1>ul {float:left;}
+
+#box1>ul>li {padding:0 15px;margin-top: 5px;border:1px solid#ccc;height:30px;line-height: 30px;border-bottom: 0 none;cursor: pointer;}
+
+#box1{height:36px;border-bottom:1px solid #ccc;}
+
+#box2{position:relative;}
+ul>li{
+    list-style: none;
+    float: left;
+}
+
+#box2 ul li{
+    font-size: 14px;
+     margin:0 26px;
+}
+
+.resul{position: absolute;}
+
+.deng,.jia {
+    display:block;
+    font-size: 52px;
+    font-weight: 700;
+    color: #CCCCCC;
+    margin-top: 60px;
+}
+
+.deng{
+    margin-left: 100px;
+}
+
+
+#box2 ul{
+    /*display:none;*/
+}
+#box2 .add i{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#box2 li:last-child{
+    padding-top: 30px;
+}
+#box2 li p:last-child {
+   color:#2BBB14;
+}
+
+#box2  .add{
+  display:block;
+  width:117px;
+  height:27px;
+  border:1px solid #ccc;
+  border-radius: 30px ;
+  line-height: 27px;
+  text-align: center;
+  font-size: 14px;
+  color:white;
+  background: #505050;
+}
+#box2 .add:hover{
+  background: pink;
+  cursor:pointer;
+}
+
+.zongjia{
+    color:red;
+    font-size: 30px;
+}
+.save{color:#2BBB14;}
+
+.active{background:#2BBB14;}
+
+
+#Description{
+  width:980px;
+  margin:0 auto;
+}
+
+#Description>h3{
+  display:block;
+  width:740px;
+  height:40px;
+  line-height: 40px;
+  border-bottom: 2px solid #505050;
+}
+
+#Description p{
+  padding:5px 16px;
+  font-size: 12px;
+  line-height: 20px;
+}

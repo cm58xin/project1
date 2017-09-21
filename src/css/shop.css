@@ -1,0 +1,207 @@
+.shop{
+    border-top:3px solid #CFCFCF;
+}
+.shop .container>.p1{line-height: 30px;
+    height:30px;padding-left:23px;
+    background:url("../img/wl_8.26housee.png") no-repeat left center;
+ 
+    font-size: 14px;
+}
+.shop .container .boos{
+    border: 1px solid #ccc;
+    height:725px;
+    margin-bottom: 10px;
+}
+.shop .container .boos .box1{
+    position:relative;
+    float: left;
+    width:410px;
+    height:100%;
+
+}
+.shop .container .boos .box1 .box1_pic{
+    position:relative;
+    height:400px;
+    padding:80px;
+}
+.shop .container .boos .box3 .p1{
+height:35px;
+font-size: 14px;
+text-align: center;
+line-height:35px;
+color:green;
+}
+
+.shop .container .boos .box1 .box1_pic .pic1{
+    width:100%;
+
+}
+.shop .container .boos .box1 .box1_pic img:nth-child(1){
+position:absolute;
+top: 0;
+left:0;
+}
+.shop .container .boos .box1 .box1_pic img:nth-child(2){
+position:absolute;
+top: 10px;
+left:82%;
+}
+.shop .container .boos .box1 ul{
+    position:absolute;
+    height:60px;
+
+}
+.shop .container .boos .box1 .boxs{
+    overflow: hidden;
+    position:relative;
+
+    height:60px;
+    width:350px;
+    margin:0 30px;
+}
+.shop .container .boos .box1 ul li{
+    float:left;
+    width:70px;
+    height:60px;
+    padding:0 6px;
+     /*margin-right: 12px;*/
+    border:1px solid #ccc;
+}
+.shop .container .boos .box1 ul li.act{
+  border:1px solid #FF6701;
+
+
+}
+.shop .container .boos .box1 ul li:hover{
+
+  cursor:pointer;
+
+}
+.shop .container .boos .box1 i{
+background-color: #ffffff;
+width:30px;
+height:60px;
+position:absolute;
+text-align: center;
+line-height: 60px;
+font-size: 40px;
+font-style: normal;
+top: 400;
+color: #ccc;
+z-index: 999;
+}
+.shop .container .boos .box1 i:hover{
+    background:#FF6701;
+    cursor: pointer;
+}
+.shop .container .boos .box1 i:nth-child(1){
+left:0;
+}
+.shop .container .boos .box1 i:nth-child(2){
+    z-index: 99;
+right:0;
+}
+.shop .container .boos .box1 ul li:last-child{
+margin-right: 0;
+}
+.shop .container .boos .box2{
+    float: left;
+    width:362px;
+    height:100%;
+}
+.shop .container .boos .box3{
+    float: left;
+    height:100%;
+    width:226px;
+}
+.box2_biao table{
+    height:180px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+}
+.box2_biao ul{
+    height:24px;
+margin-top: 20px;
+
+}
+.box2_biao ul p{
+    float:left;
+    margin-right: 20px;
+}
+.box2_biao #size li{
+    float:left;
+    height:24px;
+    width:35px;
+    margin-right: 5px;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+.box2_biao #size li.active{
+    border:1px solid orange;
+}
+.box2_biao #color li{
+    float:left;
+    height:24px;
+    width:52px;
+    margin-right: 5px;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+.box2_biao #color li.active{
+    border:1px solid orange;
+}
+.box2_biao .gocar{
+    position:relative;
+    margin-top: 20px;
+}
+.box2_biao .gocar>.p1{
+    float:left;
+    height:30px;
+    line-height: 30px;
+}
+
+.box2_biao .gocar #input1{
+    width:40px;
+    text-align: center;
+    height:30px;
+    margin-left:20px;
+    border:1px solid #ccc;
+}
+.box2_biao .gocar>i{
+    position:absolute;
+    border:1px solid #FFFFFF;
+}
+.box2_biao .gocar>i:hover{
+    border:1px solid orange;
+}
+.box2_biao .gocar #i1{
+    top: 0;
+    left:130px;
+}
+.box2_biao .gocar #i2{
+    top: 20px;
+    left:130px;
+}
+.box2_biao .gocar>img{
+    float:right;
+    margin-right: 10px;
+}
+.box2_biao>.zongjia {
+    font-size: 14px;
+line-height: 30px;
+height:30px;
+margin-bottom: 10px;
+}
+table tr:nth-child(2n-1){
+    background-color: #F5F5F5;
+}
+table tr{
+    border:1px solid #E3E3E3;
+}
+table td,table th{
+     border:1px solid #E3E3E3;
+}

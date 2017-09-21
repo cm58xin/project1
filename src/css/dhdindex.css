@@ -1,0 +1,153 @@
+
+
+/*邓厚锻第一周项目首页下半部分*/
+
+
+
+         /*nav*/
+html,body{height: 100%;}
+
+#nav .nav1{
+	width: 230px;
+	height:785px;
+	float:left;
+	/*background: #ccc;*/
+}
+#nav .nav2{
+	overflow:hidden;
+	border-left: 3px solid #D7D7D7;
+}
+#nav .nav2>p{
+	height: 36;
+	line-height:36px;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom: 2px solid #000;
+}
+#nav .nav2 ul{
+	width:740px;
+	margin-left: 30px;
+	padding-bottom:50px;
+}
+#nav .nav2 ul li{
+	padding-top:10px;
+	margin-right:23px;
+	width: 162px;
+	height: 249px;
+	float:left;
+}
+#nav .nav2 ul li img{
+	display:block;
+	width: 162px;
+	height: 141px;
+}
+#nav .nav2 ul li p{
+	font-size:10px;
+	padding-top:2px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#nav .nav2 ul li p:nth-of-type(3) span{
+	text-decoration:line-through;
+}
+#nav .nav2 ul li p:nth-of-type(4) span{
+	color:#FF4552;
+}
+#nav .nav2 ul li p:nth-of-type(5){
+	color:#298F53;
+}
+
+
+
+      /*section*/
+ #section{
+ 	padding-left:253px;
+ }
+ #section>p{
+ 
+ 	padding-left:22px;
+ 	padding-bottom:10px;
+ 	font-size:14px;
+ 	font-weight:bold;
+ 	background: url(../img/top.png) no-repeat;
+ }
+ #section>p>span{
+ 	float:right;
+ 	font-weight:normal;
+ }
+ #section .article{
+ 	height:90px;
+ }
+#section .article .img1{
+	display:inline-block;
+	width: 65px;height: 67px;
+	background:url(../img/handbag.png);
+	background-size:cover;
+	vertical-align:top;
+	float:left;
+	overflow:hidden;
+}
+#section .article .img2{
+	display:inline-block;
+	width: 65px;height: 67px;
+	background:url(../img/suitcase.png);
+	background-size:cover;
+	vertical-align:top;
+	float:left;
+	overflow:hidden;
+}
+#section .article .img3{
+	display:inline-block;
+	width: 65px;height: 67px;
+	background:url(../img/wallet.png);
+	background-size:cover;
+	vertical-align:top;
+	float:left;
+	overflow:hidden;
+}
+#section .article .img4{
+	display:inline-block;
+	width: 65px;height: 67px;
+	background:url(../img/watch.png);
+	background-size:cover;
+	vertical-align:top;
+	float:left;
+	overflow:hidden;
+}
+#section .article .type{
+	display:inline-block;
+	color:#000;
+	font-size:10px;
+	border-bottom:1px solid #000;
+}
+#section .article .word{
+/*	display:inline;*/
+	font-size:12px;
+	line-height:16px;
+}
+
+     /*aside*/
+#aside {
+	font-size:12px;
+	padding-bottom:10px;
+	border-bottom:2px solid #000;
+}
+#aside span{
+	float:left;
+}
+#aside ul{
+	float:left;
+}
+#aside ul li{
+	float:left;
+	
+}
+#aside ul li a{
+	color:#000;
+	padding:0 11px;
+	border-right:1px solid #000;
+}
+#aside ul li:last-child a{
+	border-right:0px none;
+}

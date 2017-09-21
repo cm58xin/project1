@@ -1,0 +1,283 @@
+
+/*轮播图------------------------------------------*/
+
+        #banner{width:1000px;height:400px;position:relative;overflow:hidden;margin:0 auto;}
+        #banner #banner_ul{list-style: none;position:absolute;top:0;left:0;width:500000px;overflow:hidden;z-index:-99;}
+        #banner #banner_ul li{float:left;}
+        #banner img{display:block;width:1000px;height:400px;}
+        .btn1,.btn2{display:block;float:left;position:absolute;z-index: 50;}
+        .btn1{border:50px solid #fc0;border-left-color: transparent;border-top-color:transparent ;border-bottom-color:transparent;top:50%;left:18%;transform:translateY(-50%);opacity: 0.5;}
+        .btn2{border:50px solid #fc0;border-right-color: transparent;border-top-color:transparent ;border-bottom-color:transparent;right:0;top:50%;left:94%;transform:translateY(-57%);opacity: 0.5;}
+        .btn1:hover{border-right-color: #fc0;cursor:pointer;opacity: 1;}
+        .btn2:hover{border-left-color: #fc0;cursor:pointer;opacity: 1;}
+
+
+        #banner .page{position: absolute;left:73%;bottom:10px;transform: translate(-50%,0);z-index: 99;}
+        #banner .page span{display:inline-block;margin:0 15px;width:15px;height:15px;overflow: hidden;background-color: #ddd;border-radius: 50%;text-indent:-1000px;box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+        #banner .page span.active{background-color: red;transform:scale(1.5);border:1px solid red;box-shadow: 0 0 20px red; }
+
+        .over{cursor:pointer;}
+
+
+.main .main_xw{
+	float: right;
+	width: 770px;
+	min-height: 400px;
+	background-color: #EFEFEF;
+}
+
+.main .main_xw .xwpg{
+	width: 50px;
+	height: 164px;
+	position: fixed;
+	right: 0px;
+	top: 25%;
+}
+.main .main_xw .h2{
+	height: 37px;
+	background-color: #228B22;
+	border-bottom: 2px dashed #FFFFFF;
+	padding-right: 45px;
+	background-image: url(../img/xwp6.png);
+	background-repeat:no-repeat;
+	background-position: left center;
+	position: relative;
+}
+.main .main_xw .h2 a{
+	float: right;
+	line-height: 37px;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.main .main_xw .h2 i{
+	width: 12px;
+	height: 17px;
+	position: absolute;
+	top: 29%;
+	left: 95%;
+}
+.main .main_xw .ul1{
+	padding: 5px 3px;
+	padding-bottom: 0px;
+}
+.main .main_xw .ul1 li{
+	float: left;
+	width:147px;
+	height: 133px;
+	margin: 5px;
+	background-image: url(../img/xwp2.png);
+	background-repeat: no-repeat;
+	margin-right: 0px;
+	margin-top: 0px;
+	position:relative;
+	border:1px solid #ffffff;
+}
+.main .main_xw .ul1 li p{
+	text-align: center;
+	color:#ffffff;
+	height:16px;
+	font-size: 14px;
+
+}
+.main .main_xw .ul1 li div{
+	height:20px;
+	background:#ffffff;
+	position:absolute;
+	bottom:0px;
+	width:145px;
+	overflow:hidden;
+}
+
+
+.main .main_xw .ul2{
+	margin-left: 5px;
+	background-color: #E1E8EF;
+	padding-left: 7px;
+	border-top: 1px solid #FFFFFF;
+	
+}
+.main .main_xw .ul2>p{
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: bold;
+}
+.main .main_xw .ul2 li{
+	height: 145px;
+	width:375px ;
+	float: right;
+}
+.main .main_xw .ul2 li .xwbox{
+	float: left;
+	height:135px;
+	width: 143px;
+	background-image: url(../img/xwp5.png);
+	position: relative;
+	cursor: pointer;
+}
+.main .main_xw .ul2 li h4{
+	line-height: 20px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.main .main_xw .ul2 li h4 a{
+	color: black;
+}
+.main .main_xw .ul2 li p{
+	font-size: 10px;
+}
+.main .main_xw .ul2 li .p1{
+	text-decoration: line-through;
+}
+.main .main_xw .ul2 li .p1 a{
+	color: black;
+}
+.main .main_xw .ul2 li .p2 a{
+	color: #FE454F;
+}
+.main .main_xw .ul2 li .xwbox i{
+	display: block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-image: url(../img/xwp8.png);
+	position: absolute;
+	top: -10px;
+	right: 0px;
+}
+.main .main_xw .h4{
+	height: 44px;
+	background-color: #FFFFFF;
+	padding-top: 15px;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 3px;
+	margin-left: 5px;
+}
+hr{
+	height: 3px;
+	background-color: black;
+}
+.main .main_xw .xwbh{
+	width: 200%;
+	height: 277px;
+}
+.main .main_xw .anniu{
+	overflow: hidden;
+	margin-left: 5px;
+	position: relative;
+}
+
+.main .main_xw .anniu #i1{
+	width: 25px;
+	height: 40px;
+	position: absolute;
+	top: 35%;
+	left: 10px;
+	z-index: 86;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.main .main_xw .anniu #i2{
+	width: 25px;
+	height: 40px;
+	position: absolute;
+	top: 35%;
+	left: 730px;
+	z-index:86;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.main .main_xw .xwbh .ul3{
+	position: absolute;
+	left:0;
+	padding: 0 17px;
+	background-color: #FFFFFF ;
+
+}
+.main .main_xw .xwbh .ul3 li{
+
+	height: 277px;
+	float: left;
+	width: 178px;
+	padding-right: 18px;
+
+}
+.main .main_xw .xwbh .ul3 li:hover .xwlunb{
+	transform: scale(0.9) ;
+}
+.main .main_xw .xwbh .ul3 li:first-child{
+	margin-left: 18px;
+}
+.main .main_xw .xwbh .ul3 li .xwlunb{
+	height: 163px;
+	width: 100%;
+	background-image: url(../img/xwp5.png);
+	transition:  all 1s;
+	
+}
+.main .main_xw .xwbh .ul3 li .p1{
+	line-height: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.main .main_xw .xwbh .ul3 li .p1 a{
+	font-size: 12px;
+	color: #000000;
+}
+.main .main_xw .xwbh .ul3 li .p2{
+	height:17px;
+	font-size: 10px;
+	line-height: 17px;
+	margin-top: 7px;
+}
+.main .main_xw .xwbh .ul3 li .p2 span{
+	text-decoration: line-through;
+}
+.main .main_xw .ul3 li .p3{
+	height:17px;
+	font-size: 10px;
+	line-height: 17px;
+}
+.main .main_xw .xwbh .ul3 li .p3 span{
+	color: #FF544A;
+}
+.main .main_xw .xwbh .ul3 li .p4{
+	height:17px;
+	font-size: 10px;
+	line-height: 17px;
+	color: #228B37;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../wl-font/iconfont.eot?t=1501067982236'); /* IE9*/
+  src: url('../wl-font/iconfont.eot?t=1501067982236#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../wl-font/iconfont.woff?t=1501067982236') format('woff'), /* chrome, firefox */
+  url('../wl-font/iconfont.ttf?t=1501067982236') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../wl-font/iconfont.svg?t=1501067982236#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangyoujiantou:before { content: "\e65f"; }
+
+.icon-xiangzuojiantou:before { content: "\e660"; }
+
+.icon-delete:before { content: "\e6c5"; }
+
+.icon-headphone:before { content: "\e6c8"; }
+
+.icon-game:before { content: "\e6cc"; }
+

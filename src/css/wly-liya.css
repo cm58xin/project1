@@ -1,0 +1,204 @@
+input{
+    display:block;
+    padding-left:10px;
+}
+#main .main_t{
+    padding:17px 0 0 20px;
+    border-bottom:2px solid #404040;
+}
+#main .main_t h1{
+    font-size:16px;
+    color:#5A5A5A;
+    line-height:36px;
+}
+#main .main_c{
+    padding-top:25px;
+    height: 500px;
+    border-bottom:2px solid #5A5A5A;
+}
+#main .main_c .main_cl{
+    width: 448px;
+    height:420px;
+    float:left;
+    border-right:1px dotted #999999;
+}
+#main .main_c .main_cl .signIn{
+    width: 418px;
+    height: 390px;
+    padding-left:50px;
+}
+#main .main_c .main_cl .signIn input{
+    display:block;
+    font-size:12px;
+    height: 36px;
+    width: 345px;
+    border:0 none;
+    border:1px solid #ccc;
+    outline:none;
+}
+#main .main_c .main_cl .signIn>div{
+    padding-top:24px;
+}
+#main .signIn span{
+    font-size:12px;
+    font-weight:bold;
+    color:#617161;
+    padding-bottom:5px;
+    display:block;
+}
+#main .main_c .main_cl .signIn .code input:first-of-type{
+    width:250px;
+    float:left;
+    margin-right:10px;
+}
+#main .main_c .main_cl .signIn .code input:nth-of-type(2){
+    width:85px;
+    float:left;
+}
+#main .main_c .main_cl .signIn>input{
+    height: 32px;
+    width: 66px;
+    display:block;
+    margin-top:60px;
+    background: #FA7B13;
+    color:#fff;
+    text-align:center;
+    padding:0;
+    font-weight:bold;
+    cursor:pointer;
+    border:0 none;
+}
+#main .main_c .main_cl .signIn #toCode{
+    font-size:18px;
+    font-style:italic;
+    letter-spacing:8px;
+    background:url('../img/wly_code2.gif');
+    height:36px;
+    width: 85px;
+}
+#main .main_c .main_cr{
+    width: 530px;
+    padding-left:70px;
+    float:left;
+}
+#main .main_c .main_cr .main_cr_t{
+    height: 50px;
+    width: 345px;
+    padding:4px 0 0 5px;
+    background:#FFFFCC;
+    border:1px dashed #FF4500;
+}
+#main .main_c .main_cr .main_cr_t p{
+    font-size:12px;
+    line-height:20px;
+    float:left;
+}
+#main .main_c .main_cr .main_cr_t p:first-child{
+    color:#FF4500;
+}
+#main .main_c .main_cr .main_cr_t p:last-child{
+    color:#228B6F;
+    float:left;
+}
+#main .main_c .main_cr .main_cr_t a{
+    display:block;
+    float:right;
+    font-size:12px;
+    text-decoration:underline;
+    color:#333;
+}
+#main .main_c .main_cr .main_cr_c input{
+    display:block;
+    width: 345px;
+    height: 30px;
+    outline:none;
+    border:0 none;
+    border:1px solid #ccc;
+}
+#main .main_c .main_cr .main_cr_c div:first-child{
+    padding-top:16px;
+}
+#main .main_c .main_cr .main_cr_c span{
+    font-size:12px;
+    padding-bottom:4px;
+    display:block;
+    color:#333;
+    font-weight:bold;
+}
+#main .main_cr_c div:first-child span:last-child{
+    color:#999999;
+    font-weight:normal;
+}   
+#main .main_c .main_cr .main_cr_c div:nth-child(n+2){
+    padding-top:13px;
+}
+#main .tips{
+    display:block;
+    width: 200px;
+    padding-left:10px;
+    padding-top:5px;
+}
+#main .signIn .active{
+    width: 200px;
+    padding-top:5px;
+    padding-left:10px;
+    display:block;
+    color:#f00;
+}
+#main .signIn .error{
+    width: 200px;
+    padding-top:5px;
+    padding-left:10px;
+    display:block;
+    color:#58bc58;
+}
+#main .main_c .main_cr .main_cr_c div:nth-child(4){
+    padding-top:0;
+}
+#main .main_c  .main_cr_c .update .check input{
+    height:16px;
+    width: 16px;
+    margin-top:2px;
+    padding:0;
+    float:left;
+}
+#main .main_c  .main_cr_c .update .check span{
+    display:block;
+    padding-left:6px;
+    font-size:14px;
+    font-weight:bold;
+    color:#333333;
+}
+#main .main_c  .main_cr_c .update .check span:nth-child(5){
+    font-weight:normal;
+    padding-left: 23px;
+}
+#main .main_c  .main_cr_c .update .check span:nth-child(3){
+    font-weight:normal;
+}
+#main .main_c  .main_cr_c .update .check span:nth-child(2){
+    padding-left: 23px;
+}
+#main .main_c  .main_cr_c .update .check .agree{
+    font-weight:normal;
+    padding-top:4px;
+}
+#main .main_c  .main_cr_c .update .check 
+.input2{
+    margin-top:8px;
+}
+#main .main_c .main_cr .main_cr_c input#btn2{
+    display:block;
+    margin-top:20px;
+    height: 34px;
+    width: 72px;
+    line-height:32px;
+    font-size:12px;
+    cursor:pointer;
+    background:#F78F1C;
+    color:#fff;
+    text-align:center;
+    padding:0;
+    border:0 none;
+    font-weight:bold;
+}

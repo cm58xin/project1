@@ -1,0 +1,252 @@
+
+
+/*h_header------------------------------------------*/
+.h_header{
+    height:33px;
+    width:100%;
+}
+
+.h_header .container{
+    height:33px;
+}
+
+.h_header_ul li{
+    float: left;
+}
+
+.h_header_ul li i{
+    padding:0 3px;
+    color:#999999;
+    font-size: 14px;
+}
+
+
+.h_header_ul li a{
+    height:33px;
+    line-height: 33px;
+    font-size: 14px;
+}
+
+.h_header_ul li:hover a{
+    color:red;
+}
+
+
+
+/*main------------------------------------------*/
+
+/*main_left------------------------------------------*/
+
+/*main_left------------------------------------------*/
+
+.main_left{
+    width:200px;
+    float:left;
+}
+
+.main_left_t{
+    width:200px;
+    height:460px;
+}
+ .main_left_t_ul1>li>ul{
+    overflow:hidden;
+ }
+.main_left_t>p{
+    height:29px;
+    line-height: 29px;
+    border-bottom:2px solid #ccc;
+    margin-bottom:17px ;
+    font-weight: 700;
+}
+
+.main_left_t>p>a{
+    display: inline-block;
+    height:27px;
+    line-height: 27px;
+    font-size: 14px;
+    border-bottom:2px solid black;
+}
+
+.main_left_t_ul1 li a,.main_left_t_ul1 li i{
+      font-size: 11px;
+}
+.main_left_t_ul1>li>ul>li:hover a{
+      color:red;
+}
+.main_left_t_ul1>li>ul>li:hover i{
+    display:inline-block;
+     transform: rotate(90deg);
+}
+
+/*///////////////////////////////////////////*/
+.main_left_d{
+    width:200px;
+    height:739px;
+}
+
+.main_left_d h5{
+    height:35px;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    box-shadow: 0 10px 10px #ccc inset;
+    border-right:0 none;
+    border-left:0 none;
+    border-bottom:0 none;
+
+}
+
+#showslist li>span{
+    font-size:11px;
+    line-height: 15px;
+    height:15px;
+}
+
+#showslist .li_wly{
+   text-decoration: line-through;
+}
+#showslist ul .li_wly2 {
+   color:red;
+}
+#showslist ul .li_wly3 {
+   color:#228B22;
+}
+
+
+
+/*.main_right*------------------------------------------------------------------*/
+
+.main .main_right{
+    overflow:hidden;
+}
+
+.main .main_right>p span{
+    display:inline-block;
+    padding:0 5px;
+    font-weight: normal;
+}
+.main .main_right>p{
+   border-bottom:2px solid black;
+   height:29px;
+   line-height: 29px;
+   font-weight: 700;
+   font-size: 14px;
+   display:block;
+   width:790px;
+   margin-left: 10px;
+}
+
+.main .main_right>p .span1{
+    float:right;
+}
+.main .main_right>p .span1 a{
+    display:inline-block;
+    padding:0 5px;
+    cursor:pointer;
+
+}
+
+.wly_active{
+    color:red;
+}
+.main .main_right>p .span1 .wly_active2{
+    color:red;
+}
+.main .main_right>p .span1 a:hover{
+    cursor:pointer;
+}
+
+.main .main_right>p #rank{
+    color:#FF4500;
+    font-weight: 700;
+}
+.main .main_right>p #rank i{
+    font-size: 12px;
+    display:inline-block;
+    transform:rotate(90deg);
+    background: #FDCD42;
+    color:black;
+    margin-left: 10px;
+}
+
+.main .main_right>p #rank i:nth-child(2){
+    transform:rotate(-90deg);
+}
+
+.main .main_right>p #rank:hover{
+    cursor:pointer;
+}
+
+#datalist{
+    width:790px;
+    padding-bottom:50px;
+    float:right;
+}
+#datalist li{
+    padding-top:24px;
+    margin-right:34px;
+    width: 163px;
+    height: 262px;
+    float:left;
+}
+#datalist li p:nth-of-type(1){
+    font-size:10px;
+    padding-top:2px;
+    word-break:break-all;
+}
+.main .main_right span{
+    font-size:14px;
+}
+.main .main_right .listPrice{
+    text-decoration:line-through;
+}
+.main .main_right .ourPrice{
+    color:#FF4552;
+}
+.main .main_right .save{
+    color:#298F53;
+}
+.main .main_right ul li a{
+    font-size:13px;
+}
+.main .main_right ul li i{
+    font-size:11px;
+}
+
+/*footer------------------------------------------*/
+
+
+.footer>ul {
+    float:right;
+    margin-top: 70px;
+}
+
+.footer>ul>li{
+    float:left;
+}
+
+
+
+
+.footer>ul>li>a{ 
+    display:block;
+    height:64px;
+    line-height: 64px;
+    padding:0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer>ul>li i{ 
+    font-size: 14px;
+}
+
+.footer>ul>li>a:hover{ 
+    color:red;
+    cursor:pointer;
+}
+.footer>ul>li:nth-child(2) i{ 
+    display:block;
+    transform:rotate(180deg);
+}
+
+
+

@@ -1,0 +1,81 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-26 15:12:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-17 16:10:19
+*/
+
+.HOT_items{
+   width:1000px;
+    height:238px;
+    margin:0 auto;
+    position:relative;
+}
+
+.HOT_items .container{
+    width:1000px;
+    height:188px;
+    border-bottom:2px solid #5A5A5A;
+    position:relative;
+    overflow:hidden;
+}
+
+.HOT_items ul{
+  width:10000px;
+  position:absolute;
+    left:0;
+}
+
+
+
+.HOT_items h4{display:inline;height:50px;line-height:50px;position:relative;left:-178px;}
+
+
+.HOT_items  ul li{float:left;padding:0 11px; width:167px;
+}
+
+
+.HOT_items  ul li p { font-size:10px;}
+
+
+.HOT_items  ul li img{margin:0 auto;}
+
+.HOT_items  ul li span{padding-left: 15px;color:red;}
+
+
+
+
+
+.HOT_items  .HOT_right {
+    display:block;
+     height:60px;
+     line-height: 60px;
+     width:25px;
+     font-size: 30px;
+     position:absolute;right:-25px;top:50%;z-index: 80; transform: translate(0, -50%);
+}
+
+.HOT_items .HOT_left {
+     display:block;
+     height:60px;
+     line-height: 60px;
+     width:25px;
+      font-size: 30px;
+     position:absolute;left:-25px;top:50%;  z-index: 80;
+   transform: translate(0, -50%);
+}
+
+.HOT_items  .HOT_right:hover,.HOT_items  .HOT_left:hover{
+  cursor:pointer;
+  background:#ccc;
+  transition: all 1s;
+  border-radius: 5px;
+}
+
+
+
+ .footer_2{
+  margin-top: 20px;
+}
+
+
